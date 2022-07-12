@@ -1,0 +1,703 @@
+	/*
+	body{
+		background-color: #fafafa !important;
+	}
+	header img{
+	margin-top: 70px;
+	width: 20%;
+	height: 50%;
+	}
+	nav{
+		margin-top: 4%;
+		border-style: inset;
+		 border: 1px solid lightgray;
+	  	border-radius: 90px;
+	  	margin-left: 6%;
+	  	margin-right: 6%;
+	   	padding: 2%;
+	   	background-color: #fff;
+	   	box-shadow: 0 0 15px #ccc;
+	   	margin-bottom: -60px;
+	}
+	nav li a{
+		margin: 1%;
+	    overflow: hidden; 
+	    white-space: nowrap; 
+	    text-overflow: ellipsis;
+	    display: block;
+	    line-height:50px;
+	}
+
+	nav li a:hover:not(.active) {
+	 	color:#fff!important;
+	  background-color:#20202f;
+	  border-radius: 90px;
+	   display: block;
+	   cursor: pointer;
+	}
+
+	.boxes h1,p{
+	 	overflow:hidden;
+	    text-overflow:ellipsis; 
+	    white-space:nowrap;
+	    width: 100%;
+	}
+	.boxes img{
+		width: 100%;
+	}
+	.aciklama span{ /* fiyat butonu */ /*
+		
+	    font-weight: small;
+	    font-size: 15px;
+	    line-height: 20px;
+	   	padding-right: 55px;
+	    margin-top: 10px;
+	    color: #e4b95b;
+	    background-color: #20202f;
+	    width: 20%;
+	}
+
+	.aciklama h1{  
+		font-size: 25px !important;
+		padding-top: 15px;
+		width: 80% !important;
+		float:left !important;
+	    line-height: 25px;
+
+	}
+
+	.box{
+		 border: 1px solid lightgray;
+		width:31% !important;
+		background-color: white;
+		margin: 10px;
+		padding-bottom: 20px;
+		box-shadow: 0 0 15px #ccc;
+		border-radius: 15px;
+		overflow: hidden !important;
+		padding: 0 !important;
+		 cursor: pointer;
+		  border: 1px solid lightgray;
+		 box-shadow: 0 0 15px #ccc !important;
+
+	}
+	.box img{
+		margin-bottom: 20px;
+		max-height: 600px;
+		max-width: 360px;
+		width:100%;
+		height: 240px;
+	}
+	.box:hover img{
+
+		overflow: hidden;
+		-ms-transform: scale(1.1);
+	 	-webkit-transform: scale(1.1); 
+	 	transform: scale(1.1); 
+	}
+	footer{
+		text-align: center; 
+		margin-top:90px;
+		margin-bottom: -60px;
+
+	}
+	/*MODAL*//*
+
+	.m-content{
+		width: 75vw ;
+		max-height:95vh;
+		background-color: #fff
+	}
+	.m-header{
+		background-color:#20202faa;
+		height:40px;
+		color:#e4b95b;
+	}
+	.m-title{
+		float:left;
+		width:80%;
+		text-align:left; 
+		margin-left:10px;
+	}
+	.buton{
+		float: right !important;
+		height: 28px;
+		width: 15%;
+		margin-right:-140px;
+		margin-top:5px;
+		margin-bottom:6px;
+		background-color:#e4b95b !important;
+		font-size:15px !important; 
+		font-weight: bolder;
+	    padding-bottom: 25px !important;
+	}
+	.m-body{
+		background-color:#fff;
+		position: relative;
+	    display: block;
+	    width: 50%;
+	    margin: 15px auto;
+	    border-radius: 5px
+	}
+	.m-body img{
+		width: 100%;
+		margin: 15px;
+		border-radius: 5px;
+	}
+	.m-footer{
+		background-color: #fff;
+		margin-bottom:25px;
+		width: 100%; 
+		height:20vh;
+
+	}
+	.m-footer h1{
+		margin-top: -5px !important;
+		width:100%;
+		line-height:50px;
+	}
+	.m-footer p{
+		font-weight:400;
+		width:100%;
+		margin-bottom: 5px !important;
+		margin-left: 10px;
+	} */
+	/* mobil için responsive 
+	@media screen and (max-width: 375px) {
+	  body {
+	    width:65%;
+
+	  }
+	  .box{
+		width: 100%;
+		margin: 25px;
+		position: relative;
+	   
+	}
+	 nav {
+	    width:100%;
+	 
+	  }
+	   header img{
+	  	width: 50%;
+	  	display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  }
+	 
+	}
+
+	*/
+	/*laptop and desktop*/
+	@media only screen and (min-width : 1024px) {
+
+	body{
+		background-color: #fafafa !important;
+	}
+	header img{
+	margin-top: 70px;
+	width: 20%;
+	height: 50%;
+	}
+	nav{
+		margin-top: 4%;
+		border-style: inset;
+		 border: 1px solid lightgray;
+	  	border-radius: 90px;
+	  	margin-left: 6%;
+	  	margin-right: 6%;
+	   	padding: 2%;
+	   	background-color: #fff;
+	   	box-shadow: 0 0 15px #ccc;
+	   	margin-bottom: -60px;
+	}
+	nav li a{
+		margin: 1%;
+	    overflow: hidden; 
+	    white-space: nowrap; 
+	    text-overflow: ellipsis;
+	    display: block;
+	    line-height:50px;
+	}
+
+	nav li a:hover:not(.active) {
+	 	color:#fff!important;
+	  background-color:#20202f;
+	  border-radius: 90px;
+	   display: block;
+	   cursor: pointer;
+	}
+
+	.boxes h1,p{
+	 	overflow:hidden;
+	    text-overflow:ellipsis; 
+	    white-space:nowrap;
+	    width: 100%;
+	}
+	.boxes img{
+		width: 100%;
+	}
+	.aciklama span{ /* fiyat butonu */
+		
+	    font-weight: small;
+	    font-size: 15px;
+	    line-height: 20px;
+	   	padding-right: 55px;
+	    margin-top: 10px;
+	    color: #e4b95b;
+	    background-color: #20202f;
+	    width: 20%;
+	}
+
+	.aciklama h1{  
+		font-size: 25px !important;
+		padding-top: 15px;
+		width: 80% !important;
+		float:left !important;
+	    line-height: 25px;
+
+	}
+
+	.box{
+		 border: 1px solid lightgray;
+		width:31% !important;
+		background-color: white;
+		margin: 10px;
+		padding-bottom: 20px;
+		box-shadow: 0 0 15px #ccc;
+		border-radius: 15px;
+		overflow: hidden !important;
+		padding: 0 !important;
+		 cursor: pointer;
+		  border: 1px solid lightgray;
+		 box-shadow: 0 0 15px #ccc !important;
+
+	}
+	.box img{
+		margin-bottom: 20px;
+		max-height: 600px !important;
+		max-width: 360px !important;
+		width:100% !important;
+		height: 240px;
+		margin-top: -50px !important;
+	}
+	.box:hover img{
+
+		overflow: hidden;
+		-ms-transform: scale(1.1);
+	 	-webkit-transform: scale(1.1); 
+	 	transform: scale(1.1); 
+	}
+	footer{
+		text-align: center; 
+		margin-top:90px;
+		margin-bottom: -60px;
+
+	}
+	/*MODAL*/
+
+	.m-content{
+		width: 75vw ;
+		max-height:95vh;
+		background-color: #fff
+	}
+	.m-header{
+		background-color:#20202faa;
+		height:40px;
+		color:#e4b95b;
+	}
+	.m-title{
+		float:left;
+		width:80%;
+		text-align:left; 
+		margin-left:10px;
+	}
+	.buton{
+		float: right !important;
+		height: 28px;
+		width: 15%;
+		margin-right:-140px;
+		margin-top:5px;
+		margin-bottom:6px;
+		background-color:#e4b95b !important;
+		font-size:15px !important; 
+		font-weight: bolder;
+	    padding-bottom: 25px !important;
+	}
+	.m-body{
+		background-color:#fff;
+		position: relative;
+	    display: block;
+	    width: 50%;
+	    margin: 15px auto;
+	    border-radius: 5px
+	}
+	.m-body img{
+		width: 100%;
+		margin: 15px;
+		border-radius: 5px;
+	}
+	.m-footer{
+		background-color: #fff;
+		margin-bottom:25px;
+		width: 100%; 
+		height:20vh;
+
+	}
+	.m-footer h1{
+		margin-top: -5px !important;
+		width:100%;
+		line-height:50px;
+	}
+	.m-footer p{
+		font-weight:400;
+		width:100%;
+		margin-bottom: 5px !important;
+		margin-left: 10px;
+	}
+		
+	}
+/*telefon iphone X */
+
+	@media only screen and (max-width : 375px) {
+
+	body{
+		background-color: #fafafa !important;
+
+	}
+	header img{
+	margin-top: 50px;
+	width: 32%;
+	height: 30%;
+	margin-bottom: 27px;
+	}
+	nav{ 
+		width: 67%;
+		margin-top: 4%;
+		border-style: inset;
+		 border: 1px solid lightgray;
+	  	border-radius: 15px !important;
+	  	margin-left: 17% !important;
+	  	margin-right: 6%;
+	   	padding: 2%;
+	   	background-color: #fff;
+	   	box-shadow: 0 0 15px #ccc;
+	   	margin-bottom: -60px;
+	   
+	}
+	nav li a{
+		width: 100%;
+		margin: 1%;
+	    overflow: hidden; 
+	    white-space: nowrap; 
+	    text-overflow: ellipsis;
+	    display: block;
+	    line-height:50px;
+
+	}
+	nav li a:hover:not(.active) {
+	 	color:#fff!important;
+	  background-color:#20202f;
+	  border-radius: 90px;
+	   display: block;
+	   cursor: pointer;
+	}
+
+	.boxes h1,p{
+	 	overflow:hidden;
+	    text-overflow:ellipsis; 
+	    white-space:nowrap;
+	    width: 100%;
+	}
+	.boxes img{
+		width: 100%;
+	}
+	.aciklama span{ /* fiyat butonu */
+		
+	    font-weight: small;
+	    font-size: 15px;
+	    line-height: 20px;
+	   	padding-right: 55px;
+	    margin-top: 10px;
+	    color: #e4b95b;
+	    background-color: #20202f;
+	    width: 20%;
+	}
+
+	.aciklama h1{  
+		font-size: 25px !important;
+		padding-top: 15px;
+		width: 80% !important;
+		float:left !important;
+	    line-height: 25px;
+
+	}
+
+	.box{
+		 border: 1px solid lightgray;
+		width: 260px !important;
+		background-color: white;
+		margin: 10px;
+		padding-bottom: 20px;
+		box-shadow: 0 0 15px #ccc;
+		border-radius: 15px;
+		overflow: hidden !important;
+		padding: 0 !important;
+		 cursor: pointer;
+		 box-shadow: 0 0 15px #ccc !important;
+		 margin-bottom: 25px;
+
+	}
+	.box img{
+		margin-bottom: 20px;
+		max-height: 600px;
+		max-width: 360px;
+		width:100%;
+		height: 240px;
+	}
+	.box:hover img{
+
+		overflow: hidden;
+		-ms-transform: scale(1.1);
+	 	-webkit-transform: scale(1.1); 
+	 	transform: scale(1.1); 
+	}
+	footer{
+		text-align: center; 
+		margin-top:60px;
+		margin-bottom: -80px;
+
+	}
+	/*MODAL*/
+
+	.m-content{
+		width: 75vw ;
+		max-height:95vh;
+		background-color: #fff
+	}
+	.m-header{
+		background-color:#20202faa;
+		height:40px;
+		color:#e4b95b;
+	}
+	.m-title{
+		float:left;
+		width:80%;
+		text-align:left; 
+		margin-left:10px;
+	}
+	.buton{
+		float: right !important;
+		height: 28px;
+		width: 15%;
+		margin-right:-140px;
+		margin-top:5px;
+		margin-bottom:6px;
+		background-color:#e4b95b !important;
+		font-size:15px !important; 
+		font-weight: bolder;
+	    padding-bottom: 25px !important;
+	}
+	.m-body{
+		background-color:#fff;
+		position: relative;
+	    display: block;
+	    width: 50%;
+	    margin: 15px auto;
+	    border-radius: 5px
+	}
+	.m-body img{
+		width: 100%;
+		margin: 15px;
+		border-radius: 5px;
+	}
+	.m-footer{
+		background-color: #fff;
+		margin-bottom:25px;
+		width: 100%; 
+		height:20vh;
+
+	}
+	.m-footer h1{
+		margin-top: -5px !important;
+		width:100%;
+		line-height:50px;
+	}
+	.m-footer p{
+		font-weight:400;
+		width:100%;
+		margin-bottom: 5px !important;
+		margin-left: 10px;
+	}
+		
+	}
+	/* iPads*/
+	@media only screen and  (max-width : 768px) {
+body{
+		background-color: #fafafa !important;
+	}
+	header img{
+	margin-top: 70px;
+	width: 25%;
+	height: 50%;
+	}
+	nav{
+		margin-top: 4%;
+		border-style: inset;
+		 border: 1px solid lightgray;
+	  	border-radius: 90px;
+	  	margin-left: 6%;
+	  	margin-right: 6%;
+	   	padding: 2%;
+	   	background-color: #fff;
+	   	box-shadow: 0 0 15px #ccc;
+	   	margin-bottom: -60px;
+	}
+	nav li a{
+		width: 100%;
+		margin: 1%;
+	    overflow: hidden; 
+	    white-space: nowrap; 
+	    text-overflow: ellipsis;
+	    display: block;
+	    line-height:50px;
+	}
+
+	nav li a:hover:not(.active) {
+	 	color:#fff!important;
+	  background-color:#20202f;
+	  border-radius: 90px;
+	   display: block;
+	   cursor: pointer;
+	}
+
+	.boxes h1,p{
+	 	overflow:hidden;
+	    text-overflow:ellipsis; 
+	    white-space:nowrap;
+	    width: 100%;
+	}
+	.boxes img{
+		width: 100%;
+	}
+	.aciklama span{ /* fiyat butonu */
+		
+	    font-weight: small;
+	    font-size: 15px;
+	    line-height: 20px;
+	   	padding-right: 55px;
+	    margin-top: 10px;
+	    color: #e4b95b;
+	    background-color: #20202f;
+	    width: 20%;
+	}
+
+	.aciklama h1{  
+		font-size: 25px !important;
+		padding-top: 15px;
+		width: 80% !important;
+		float:left !important;
+	    line-height: 25px;
+
+	}
+.box{
+		 border: 1px solid lightgray;
+		width: 280px !important;
+		background-color: white;
+		margin: 10px;
+		padding-bottom: 20px;
+		border-radius: 15px;
+		overflow: hidden !important;
+		padding: 0 !important;
+		 cursor: pointer;
+		 box-shadow: 0 0 15px #ccc !important;
+		 margin-bottom: 30px;
+
+	}
+	.box img{
+		margin-bottom: 20px;
+		max-height: 600px;
+		max-width: 360px;
+		width:100%;
+		height: 240px;
+		margin-top: -50px !important;
+	}
+	.box:hover img{
+
+		overflow: hidden;
+		-ms-transform: scale(1.1);
+	 	-webkit-transform: scale(1.1); 
+	 	transform: scale(1.1); 
+	}
+	footer{
+		text-align: center; 
+		margin-top:90px;
+		margin-bottom: -60px;
+
+	}
+	/*MODAL*/
+
+	.m-content{
+		width: 75vw ;
+		max-height:95vh;
+		background-color: #fff
+	}
+	.m-header{
+		background-color:#20202faa;
+		height:40px;
+		color:#e4b95b;
+	}
+	.m-title{
+		float:left;
+		width:80%;
+		text-align:left; 
+		margin-left:10px;
+	}
+	.buton{
+		float: right !important;
+		height: 28px;
+		width: 15%;
+		margin-right:-140px;
+		margin-top:5px;
+		margin-bottom:6px;
+		background-color:#e4b95b !important;
+		font-size:15px !important; 
+		font-weight: bolder;
+	    padding-bottom: 25px !important;
+	}
+	.m-body{
+		background-color:#fff;
+		position: relative;
+	    display: block;
+	    width: 50%;
+	    margin: 15px auto;
+	    border-radius: 5px
+	}
+	.m-body img{
+		width: 100%;
+		margin: 15px;
+		border-radius: 5px;
+	}
+	.m-footer{
+		background-color: #fff;
+		margin-bottom:25px;
+		width: 100%; 
+		height:20vh;
+
+	}
+	.m-footer h1{
+		margin-top: -5px !important;
+		width:100%;
+		line-height:50px;
+	}
+	.m-footer p{
+		font-weight:400;
+		width:100%;
+		margin-bottom: 5px !important;
+		margin-left: 10px;
+	}
+		
+	}
+
+
+ 
